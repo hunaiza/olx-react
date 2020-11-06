@@ -1,0 +1,37 @@
+.fa-chevron-down {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.extra {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.extra1 {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+button:focus {outline:0;}
+
+.responsive {
+    width: 600px;
+    height: auto;
+  }
+
+.background {
+    width: 1500px;
+    margin-left: -290px;
+}
+
+.background1 {
+    height: 300px;
+}
