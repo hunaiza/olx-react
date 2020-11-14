@@ -10,7 +10,7 @@ import '../Components/Navbar.css';
 import '../Components/Navbar1.css';
 import '../Components/Mobile.css';
 
-class Mobile extends React.Component{
+class Motor extends React.Component{
     render(){
         return(
             <div style={{overflowX: "hidden"}}>
@@ -84,7 +84,7 @@ class Mobile extends React.Component{
                     </div>
                 
             <div className="Image">
-                <img src="https://tpc.googlesyndication.com/simgad/12756253881537486263" style={{marginLeft: 200}}/>
+                <img src="http://localhost:3000/static/media/Image.6f88b816.jpg" style={{marginLeft: 200}}/>
             </div>
             <div className="VNavbar">
                 <h1 style={{marginLeft: "40px"}}><b>Mobile Phones</b></h1>
@@ -177,13 +177,12 @@ class Mobile extends React.Component{
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586817825-20ex400g-242wt1drf3cg-a-19104142414.png?crop=1xw:1xh;center,top&resize=480:*" width="200px"/>
                 </div>
                 <div className="col-sm-0 heart">
                     <img src={Heart} width="50px"/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-8" style={{fontSize: "30px"}}><b>Rs. 178500</b></div>
                 <br />
                 <br />
                 <div className="row">
@@ -196,13 +195,12 @@ class Mobile extends React.Component{
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586817825-20ex400g-242wt1drf3cg-a-19104142414.png?crop=1xw:1xh;center,top&resize=480:*" width="200px"/>
                 </div>
                 <div className="col-sm-0 heart">
                     <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-8" style={{fontSize: "30px"}}><b>Rs. 178500</b></div>
                 <br />
                 <br />
                 <div className="row">
@@ -215,13 +213,12 @@ class Mobile extends React.Component{
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586817825-20ex400g-242wt1drf3cg-a-19104142414.png?crop=1xw:1xh;center,top&resize=480:*" width="200px"/>
                 </div>
                 <div className="col-sm-0 heart">
                     <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-8" style={{fontSize: "30px"}}><b>Rs. 178500</b></div>
                 <br />
                 <br />
                 <div className="row">
@@ -230,18 +227,17 @@ class Mobile extends React.Component{
                 </div>
             </div>
             <div className="col-sm-0">
-            <div className="row" style={{marginTop: "20px", marginLeft: "310px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "20px", marginLeft: "230px", border: "1px solid grey", height: "300px", width: "350px"}}>
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586817825-20ex400g-242wt1drf3cg-a-19104142414.png?crop=1xw:1xh;center,top&resize=480:*" width="200px"/>
                 </div>
                 <div className="col-sm-0 heart">
                     <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-8" style={{fontSize: "30px"}}><b>Rs. 178500</b></div>
                 <br />
                 <br />
                 <div className="row">
@@ -249,18 +245,17 @@ class Mobile extends React.Component{
                   <div className="col-lg-6 Date">19 Sep</div>
                 </div>
             </div>
-            <div className="row" style={{marginTop: "-300px", marginLeft: "665px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "-300px", marginLeft: "585px", border: "1px solid grey", height: "300px", width: "350px"}}>
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586817825-20ex400g-242wt1drf3cg-a-19104142414.png?crop=1xw:1xh;center,top&resize=480:*" width="200px"/>
                 </div>
                 <div className="col-sm-0 heart">
                     <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-8" style={{fontSize: "30px"}}><b>Rs. 178500</b></div>
                 <br />
                 <br />
                 <div className="row">
@@ -315,4 +310,4 @@ class Mobile extends React.Component{
     }
 }
 
-export default Mobile;
+export default Motor;

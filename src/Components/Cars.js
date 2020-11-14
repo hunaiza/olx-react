@@ -4,13 +4,14 @@ import Logo from '../img/message.png';
 import Logo1 from '../img/Bell.png';
 import Logo2 from '../img/Galeery.png';
 import Car from '../img/Car.jpg';
+import Car1 from '../img/Car1.jpg';
 import Mob1 from '../img/Mob1.jpg';
 import Heart from '../img/Heart.jpg';
 import '../Components/Navbar.css';
 import '../Components/Navbar1.css';
-import '../Components/Mobile.css';
+import '../Components/Cars.css';
 
-class Mobile extends React.Component{
+class Cars extends React.Component{
     render(){
         return(
             <div style={{overflowX: "hidden"}}>
@@ -84,7 +85,7 @@ class Mobile extends React.Component{
                     </div>
                 
             <div className="Image">
-                <img src="https://tpc.googlesyndication.com/simgad/12756253881537486263" style={{marginLeft: 200}}/>
+                <img src="https://tpc.googlesyndication.com/simgad/18016187071986703145?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4ql5e4DBQY0a8xs3Z-Aj7Bzbji8dpw" style={{marginLeft: 200}}/>
             </div>
             <div className="VNavbar">
                 <h1 style={{marginLeft: "40px"}}><b>Mobile Phones</b></h1>
@@ -148,6 +149,7 @@ class Mobile extends React.Component{
             
             </div>
             <br />
+            
             <div className="row1" style={{fontSize: "10px", marginTop: "70px"}}>
             <div className="col-sm-4 col-2" style={{marginLeft: "60px"}}><div className="line"><p style={{fontSize: "15px"}}>13020 ads in Pakistan</p></div></div>
             <div className="col-sm-0"><div className="line1"><h4>View</h4></div></div>
@@ -172,100 +174,101 @@ class Mobile extends React.Component{
       </div></div> */}
 
             </div>
-            <div className="row" style={{marginTop: "120px", marginLeft: "-764px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "120px", marginLeft: "-764px", border: "1px solid grey", height: "300px", width: "300px"}}>
+                
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                    <img src={Car1} width="150px" height="10px" style={{marginLeft: "-60px"}}/>
                 </div>
-                <div className="col-sm-0 heart">
+                <div className="col-sm-0 heart1">
                     <img src={Heart} width="50px"/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-6" style={{fontSize: "20px"}}><b>Rs. 1114500</b></div>
+                <div className="col-sm-9" style={{fontSize: "15px"}}>2011-15,000 km</div>
                 <br />
                 <br />
                 <div className="row">
-                  <div className="col-lg-9 Location">Sialkot, Punjab</div>
-                  <div className="col-lg-6 Date">19 Sep</div>
+                  <div className="col-lg-9 Location">Islamabad</div>
+                  <div className="col-lg-0 Date" style={{marginLeft: "237px"}}>2 Days Ago</div>
                 </div>
             </div>
-            <div className="row" style={{marginTop: "120px", marginLeft: "20px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "120px", marginLeft: "20px", border: "1px solid grey", height: "300px", width: "320px"}}>
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                <img src={Car1} width="150px" height="10px" style={{marginLeft: "-60px"}}/>
                 </div>
-                <div className="col-sm-0 heart">
+                <div className="col-sm-0 heart1">
                     <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-6" style={{fontSize: "20px"}}><b>Rs. 1114500</b></div>
+                <div className="col-sm-9" style={{fontSize: "15px"}}>2011-15,000 km</div>
                 <br />
                 <br />
                 <div className="row">
-                  <div className="col-lg-9 Location">Sialkot, Punjab</div>
-                  <div className="col-lg-6 Date">19 Sep</div>
+                <div className="col-lg-9 Location">Islamabad</div>
+                  <div className="col-lg-0 Date" style={{marginLeft: "237px"}}>2 Days Ago</div>
                 </div>
             </div>
-            <div className="row" style={{marginTop: "120px", marginLeft: "20px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "120px", marginLeft: "20px", border: "1px solid grey", height: "300px", width: "320px"}}>
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                <img src={Car1} width="150px" height="10px" style={{marginLeft: "-60px"}}/>
                 </div>
-                <div className="col-sm-0 heart">
-                    <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
+                <div className="col-sm-0 heart1">
+                    <img src={Heart} width="50px" />
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-6" style={{fontSize: "20px"}}><b>Rs. 1114500</b></div>
+                <div className="col-sm-9" style={{fontSize: "15px"}}>2011-15,000 km</div>
                 <br />
                 <br />
                 <div className="row">
-                  <div className="col-lg-9 Location">Sialkot, Punjab</div>
-                  <div className="col-lg-6 Date">19 Sep</div>
+                <div className="col-lg-9 Location">Islamabad</div>
+                  <div className="col-lg-0 Date" style={{marginLeft: "237px"}}>2 Days Ago</div>
                 </div>
             </div>
             <div className="col-sm-0">
-            <div className="row" style={{marginTop: "20px", marginLeft: "310px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "20px", marginLeft: "230px", border: "1px solid grey", height: "300px", width: "300px"}}>
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                <img src={Car1} width="150px" height="10px" style={{marginLeft: "-60px"}}/>
                 </div>
-                <div className="col-sm-0 heart">
-                    <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
+                <div className="col-sm-0 heart1">
+                    <img src={Heart} width="50px"/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-6" style={{fontSize: "20px"}}><b>Rs. 1114500</b></div>
+                <div className="col-sm-9" style={{fontSize: "15px"}}>2011-15,000 km</div>
                 <br />
                 <br />
                 <div className="row">
-                  <div className="col-lg-9 Location">Sialkot, Punjab</div>
-                  <div className="col-lg-6 Date">19 Sep</div>
+                <div className="col-lg-9 Location">Islamabad</div>
+                  <div className="col-lg-0 Date" style={{marginLeft: "237px"}}>2 Days Ago</div>
                 </div>
             </div>
-            <div className="row" style={{marginTop: "-300px", marginLeft: "665px", border: "1px solid grey", height: "300px", width: "350px"}}>
+            <div className="row" style={{marginTop: "-300px", marginLeft: "535px", border: "1px solid grey", height: "300px", width: "320px"}}>
                 <div className="col-sm-0">
                     <h5 className="feature">Featured</h5>
                 </div>
                 <div className="col-sm-0">
-                    <img src={Mob1} width="200px"/>
+                <img src={Car1} width="150px" height="10px" style={{marginLeft: "-60px"}}/>
                 </div>
-                <div className="col-sm-0 heart">
-                    <img src={Heart} width="50px" style={{marginTop: "10px"}}/>
+                <div className="col-sm-0 heart1">
+                    <img src={Heart} width="50px"/>
                 </div>
-                <div className="col-sm-6" style={{fontSize: "30px"}}><b>Rs. 14500</b></div>
-                <div className="col-sm-9" style={{fontSize: "15px"}}>Samsung A10S/2/32 GB</div>
+                <div className="col-sm-6" style={{fontSize: "20px"}}><b>Rs. 1114500</b></div>
+                <div className="col-sm-9" style={{fontSize: "15px"}}>2011-15,000 km</div>
                 <br />
                 <br />
                 <div className="row">
-                  <div className="col-lg-9 Location">Sialkot, Punjab</div>
-                  <div className="col-lg-6 Date">19 Sep</div>
+                <div className="col-lg-9 Location">Islamabad</div>
+                  <div className="col-lg-0 Date" style={{marginLeft: "237px"}}>2 Days Ago</div>
                 </div>
             </div>
             
@@ -315,4 +318,4 @@ class Mobile extends React.Component{
     }
 }
 
-export default Mobile;
+export default Cars;

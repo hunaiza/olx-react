@@ -88,12 +88,12 @@ class Navbar extends React.Component {
                     </div>
                     <ul className="navbarextra" style={{width: "900px"}}>
                         <li className="extra1" ><Link to="/Mobile" style={{textDecoration: "none", color: "black"}}>Mobile Phones</Link></li>
-                        <li className="extra">Cars</li>
-                        <li className="extra">Motor Cycles</li>
-                        <li className="extra">Houses</li>
-                        <li className="extra">Tv-video-audio</li>
-                        <li className="extra">Tablets</li>
-                        <li className="extra">Land & Plots</li>
+                        <li className="extra"><Link to="/Cars" style={{textDecoration: "none", color: "black"}}>Cars</Link></li>
+                        <li className="extra"><Link to="/Motor" style={{textDecoration: "none", color: "black"}}>Motor Cycles</Link></li>
+                        <li className="extra"><Link to="/House" style={{textDecoration: "none", color: "black"}}>Houses</Link></li>
+                        <li className="extra"><Link to="/Tv" style={{textDecoration: "none", color: "black"}}>Tv-video-audio</Link></li>
+                        <li className="extra"><Link to="/Tablet" style={{textDecoration: "none", color: "black"}}>Tablets</Link></li>
+                        <li className="extra"><Link to="/House" style={{textDecoration: "none", color: "black"}}>Land & Plots</Link></li>
                     </ul>
             </div>
                     </div>
@@ -124,7 +124,7 @@ class Navbar extends React.Component {
             <br />
             
           <div className="flex flex-wrap -m-4" style={{marginLeft: "120px"}}>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full bg-light">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full bg-light"><Link to="/Next" style={{textDecoration: "none", color: "black"}}>
               <a className=" relative h-48 rounded overflow-hidden">
                 <img src={heart} width="20px" style={{marginLeft: "190px"}}/>
                 <img alt="ecommerce" className="object-center w-full h-full block" src="https://i0.wp.com/www.pdevice.com/wp-content/uploads/2017/08/Xiaomi-Redmi-Note-4-MediaTek-436x439.jpg" style={{height: "230px"}}/>
@@ -133,8 +133,9 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "30px"}} >Xiaomi</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>RS. 17600</p>
               </div>
+              </Link>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full bg-light" style={{marginLeft: "10px"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full bg-light" style={{marginLeft: "10px"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="relative h-48 rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "190px"}}/>
                 <img alt="ecommerce" className="object-center w-full h-full block" src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2017/03/16/goods_img_big-v2/20170316111431_93337.jpg" style={{height: "230px"}}/>
@@ -143,8 +144,9 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "30px"}}>Xiomi Note 4</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 19800</p>
               </div>
+              </Link>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full bg-light" style={{marginLeft: "10px"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full bg-light" style={{marginLeft: "10px"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="relative h-48 rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "190px"}}/>
                 <img alt="ecommerce" className="object-center w-full h-full block" src="https://i.gadgets360cdn.com/large/xiaomi_redmi_note_4_gold_1500433984971.jpg?output-quality=80?output-quality=80" style={{height: "230px"}}/>
@@ -153,6 +155,7 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "30px"}}>Xiomi Android</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 12700</p>
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -162,7 +165,7 @@ class Navbar extends React.Component {
             <h1 style={{color: "black", marginLeft: "-50px", marginTop: "-30px"}}>Fresh Recommendations</h1>
             <br />
           <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="block relative rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "220px", height: "30px"}}/>
                 <img alt="ecommerce" className="object-cover object-center block" src="https://www.dehlez.pk/wp-content/uploads/2018/12/balochi-chappal-3.jpg" />
@@ -171,8 +174,9 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "25px"}}>Balochi Sandals</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 2700</p>
               </div>
+              </Link>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="block relative rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "220px", height: "30px"}}/>
                 <img alt="ecommerce" style={{height: "190px"}} className="object-cover object-center block" src="https://cdn.alzashop.com/ImgW.ashx?fd=f3&cd=SAMO0168c1" />
@@ -181,8 +185,9 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "25px"}}>Samsung S10</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 144,999</p>
               </div>
+              </Link>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="block relative rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "220px", height: "30px"}}/>
                 <img alt="ecommerce" className="object-cover object-center block" src="https://images-na.ssl-images-amazon.com/images/I/51kq0X42pLL._AC_SX425_.jpg" />
@@ -191,8 +196,9 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "25px"}}>6 Piece Swords</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 1300</p>
               </div>
+              </Link>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="block relative rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "220px", height: "30px"}}/>
                 <img alt="ecommerce" style={{height: "190px"}} className="object-cover object-center block" src="https://d11zer3aoz69xt.cloudfront.net/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/s/h/shoponline_manual_water_pump_for_water_bottle_new_1.jpg" />
@@ -201,6 +207,7 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "25px"}}>Water pump</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 25000</p>
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -208,7 +215,7 @@ class Navbar extends React.Component {
       <section className="text-gray-700 body-font" style={{marginTop: "-70px"}}>
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}><Link to="/Next1" style={{textDecoration: "none", color: "black"}}>
               <a className="block relative rounded overflow-hidden">
               <img src={heart} width="20px" style={{marginLeft: "220px", height: "30px"}}/>
                 <img alt="ecommerce" style={{height: "190px"}} className="object-cover object-center block" src="https://www.babycouture.in/blog/wp-content/uploads/2018/08/saka_gorgeous_hot_pink_and_silver_kids_party_lehnga_choli_set.jpg" />
@@ -217,6 +224,7 @@ class Navbar extends React.Component {
                 <h2 className="text-gray-900 title-font text-lg font-medium" style={{fontSize: "25px"}}>Traditional Dress for Baby</h2>
                 <p className="mt-1" style={{fontSize: "15px"}}>Rs. 1500</p>
               </div>
+              </Link>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full" style={{border: "1px solid grey"}}>
               <a className="block relative rounded overflow-hidden">
