@@ -1,0 +1,93 @@
+.inbox {
+    margin-top: 18px;
+}
+
+.icon {
+    margin-top: 20px;
+    font-size: 19px;
+    color: gray;
+    height: 20px;
+}
+
+.col-sm-0 {
+    margin-left: 80px;
+}
+
+.Name {
+    margin-top: 20px;
+}
+
+.iconN {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(82, 78, 78);
+}
+
+.col-lg-1 {
+    margin-left: -17px;
+}
+
+.buttonA {
+  background-color: rgb(141, 249, 253);
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 40px;
+  border-radius: 15px;
+}
+
+.buttonB {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    border-radius: 40px;
+  }
+
+.fa-angle-down {
+    cursor: pointer;
+    margin-left: 16px;
+    font-size: 30px;
+}
+
+.angle {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 40px; 
+    width: 50px; 
+    border-color: black;
+    border-radius: 150px 150px 0 0; 
+    background-color: white;
+}
+
+.know {
+    font-size: 20px;
+}
+
+.close {
+    font-size: 10px;
+}
+
+.fa-paperclip {
+    margin-left: -70px;
+    font-size: 20px;
+}
+
+.input {
+    margin-left: -60px;
+    font-size: 20px;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+}
+
+.fa-microphone {
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.ChatS {
+    background-color: rgb(19, 34, 19);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 310px;
+    height: 40px;
+}
+
+.ChatS:hover {
+    background-color: white;
+    border: 5px solid rgb(19, 34, 19);
+    color: black;
+    font-size: 30px;
+    width: 310px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.ChatS1 {
+    margin-left: 70px;
+    border: 0;
+    outline: none;
+}
+
+.ChatS1:hover {
+    margin-left: 70px;
+    margin-top: -5px;
+}
